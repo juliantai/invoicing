@@ -1,0 +1,22 @@
+{
+  "name": "invoice",
+  "version": "1.0.0",
+  "description": "I want to build a time keeping app with a pdf invoicing feature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliantai/invoicing.git"
+  },
+  "author": "Julian Tai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliantai/invoicing/issues"
+  },
+  "homepage": "https://github.com/juliantai/invoicing#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
