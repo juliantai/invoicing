@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/juliantai/invoicing#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }

@@ -1,11 +1,14 @@
 var express = require('express'),
     app = express(),
     bodyParser = require('body-parser'),
-    router = require('router')()
+    router = require('router')(),
+    passport = require('passport');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(router);
+app.use(passport.initialize());
+app.use(passport.session());
 
 
 app.get('/login', function(req, res) {
