@@ -21,10 +21,8 @@ I want to build a time keeping app with a pdf invoicing feature. 
 * POST /login
 
 * GET /projects
-* GET /projects/new
 * POST /projects
 * GET /projects/:id
-* GET /projects/:id/edit
 * PUT /projects/:id
 * DELETE /projects/:id
 
@@ -37,7 +35,6 @@ I want to build a time keeping app with a pdf invoicing feature. 
 * GET /projects/:id/invoices
 * POST /projects/:id/invoices
 * GET /projects/:id/invoices/:id
-* GET /projects/:id/invoices/:id/edit
 * PUT /projects/:id/invoices/:id
 * POST /projects/:id/invoices/:id/bill
 * DELETE /projects/:id/invoices/:id
