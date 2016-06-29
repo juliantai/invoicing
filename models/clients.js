@@ -1,6 +1,4 @@
 var _ = require('lodash'),
-    projectsData = require('../sample/projects'),
-    tasksData = require('../sample/tasks'),
     invoicesData = require('../sample/invoices');
 
 var clients = {

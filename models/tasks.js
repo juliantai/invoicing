@@ -1,7 +1,5 @@
 var _ = require('lodash'),
-    projectsData = require('../sample/projects'),
-    tasksData = require('../sample/tasks'),
-    invoicesData = require('../sample/invoices');
+    tasksData = require('../sample/tasks');
 
 var tasks = {
   fetchAll: function(req, callback) {
