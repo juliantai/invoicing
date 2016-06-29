@@ -14,6 +14,8 @@ I want to build a time keeping app with a pdf invoicing feature. 
 
 * paid invoices should show up in user portal and clear the task list for project
 
+* both users and clients should have the ability to view old invoices
+
 
 ### End points
 
